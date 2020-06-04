@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="webGame:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/webGame_war</output-path>
+    <root id="archive" name="webGame_war.war">
+      <element id="artifact" artifact-name="webGame:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="gson-2.1-javadoc" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
